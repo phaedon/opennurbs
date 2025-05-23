@@ -17,4 +17,5 @@ cc_library(
         "@libuuid",
         "@zlib",
     ],
+    alwayslink = True,
 )
