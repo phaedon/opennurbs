@@ -13,7 +13,7 @@
 
 #include "opennurbs.h"
 #if defined(ON_RUNTIME_LINUX) || defined(ON_RUNTIME_WASM)
-#include "android_uuid/uuid.h"
+#include <uuid/uuid.h>
 #endif
 #if !defined(ON_COMPILING_OPENNURBS)
 // This check is included in all opennurbs source .c and .cpp files to insure
