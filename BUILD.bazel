@@ -12,6 +12,7 @@ cc_library(
         exclude = ["opennurbs_internal_unicode_cp.h"],
     ),
     defines = ["ON_COMPILING_OPENNURBS"],
+    visibility = ["//visibility:public"],
     deps = [
         "@libuuid",
         "@zlib",
